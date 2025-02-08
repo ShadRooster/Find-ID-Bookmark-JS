@@ -1,1 +1,55 @@
-code :
+javascript:(function(){
+            var xID = /"identifier":\s*"(\d+)"/;
+            var fbID = /"User","id":\s*"(\d+)"/;
+            var tiktokID = /userId=(\d+)/;
+            var vkID = /data-post-signer-or-author-id.*?(-?\d+)/;
+            var vk2ID = /foaf\.php\?id=(-?\d+)/;
+            var threadsID = /"userID":"(\d+)"/;
+            var source = document.documentElement.innerHTML;
+            var url = window.location.href;
+            
+            if(url.includes("x.com")){
+                var match = source.match(xID);
+                if(match){
+                    alert("ID : " + match[1]);
+                } else {
+                    alert("ID Introuvable.");
+                }
+            } else if(url.includes("facebook.com")){
+                var match = source.match(fbID);
+                if(match){
+                    alert("ID : " + match[1]);
+                } else {
+                    alert("ID Introuvable.");
+                }
+            } else if(url.includes("tiktok.com")){
+                var match = source.match(tiktokID);
+                if(match){//
+                    alert("ID : " + match[1]);
+                } else {
+                    alert("ID Introuvable.");
+                }
+            } else if(url.includes("threads.net")){
+                var match = source.match(threadsID);
+                if(match){
+                    alert("ID : " + match[1]);
+                } else {
+                    alert("ID Introuvable.");
+                }
+            } else if(url.includes("vk.com")){
+                var match = source.match(vkID);
+                if(match){
+                    alert("ID : " + match[1]);
+                } else {
+                    match = source.match(vk2ID);
+                    if(match){
+                        alert("ID : " + match[1]);
+                    } else {
+                        alert("ID Introuvable.");
+                    }
+                }
+            } else {
+                alert("URL invalide.");
+            }
+            })();
+            //Sh@dRooter
