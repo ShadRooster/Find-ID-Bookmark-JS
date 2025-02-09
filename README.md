@@ -1,25 +1,25 @@
-Créer un bookmark JS pour récupérer des ID des comptes. 
-
-Fonctionne pour X / VK / Tiktok / Threads / Facebook.
-
-Mise en place : 
-1 - Créer nouveau marque page 
-2 - Nommer le marque page 
-3 - Copier le code  dans le fichier "bookmarkjs" dans la zone URL 
-4 - Cliquer sur le marque page pour afficher l'ID du profil actuel
-
+Créer un bookmark JS pour récupérer des ID des comptes. <br>
+<br>
+Fonctionne pour X / VK / Tiktok / Threads / Facebook.<br>
+<br>
+Mise en place : <br>
+1 - Créer nouveau marque page <br>
+2 - Nommer le marque page <br>
+3 - Copier le code  dans le fichier "bookmarkjs" dans la zone URL <br>
+4 - Cliquer sur le marque page pour afficher l'ID du profil actuel<br>
+<br>
 Le script est autonome, pas de serveur, pas de surveillance.
 
 ---------------------------------------------------------------
 
-Create a JS bookmark to retrieve account ID.
-
-Works for  X / VK / Tiktok / Threads / Facebook.
-
-Setup: 
-1 - Create new bookmark 
-2 - Name the bookmark 
-3 - Copy the code in the "bookmarkjs" file in the URL box 
-4 - Click on the bookmark to display the current profile ID
-
-The script is standalone, no server, no monitoring.
+Create a JS bookmark to retrieve account ID.<br>
+<br>
+Works for  X / VK / Tiktok / Threads / Facebook.<br>
+<br>
+Setup: <br>
+1 - Create new bookmark <br>
+2 - Name the bookmark <br>
+3 - Copy the code in the "bookmarkjs" file in the URL box <br>
+4 - Click on the bookmark to display the current profile ID<br>
+<br>
+The script is standalone, no server, no monitoring.<br>
