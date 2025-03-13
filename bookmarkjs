@@ -24,7 +24,7 @@ javascript:(function(){
                 }
             } else if(url.includes("tiktok.com")){
                 var match = source.match(tiktokID);
-                if(match){//
+                if(match){
                     alert("ID : " + match[1]);
                 } else {
                     alert("ID Introuvable.");
